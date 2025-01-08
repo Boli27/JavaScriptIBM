@@ -45,11 +45,11 @@ xhr.onload = function() {
     articleDiv.appendChild(benefitsList);
 
     articlesDiv.appendChild(articleDiv);
-    var articleDiv = document.createElement('div');
+
 
     articleDiv.classList.add('article');
-  
-    articleDiv.appendChild(title);
+
   });
 }
+
 xhr.send();
